@@ -107,6 +107,11 @@
 <label class="btn btn-outline-success" for="best">best</label>
    </div>
 </div>
+<!-- Comments -->
+<div class="form-floating">
+    <textarea class="form-control" id="comment" />
+    <label for="commentTextarea">Comments</label>
+</div>
    		 </div>
 
    		 <div class="modal-footer">
