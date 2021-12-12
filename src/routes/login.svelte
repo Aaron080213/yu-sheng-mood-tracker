@@ -1,7 +1,7 @@
 <script>
 import supabase from '$lib/db';
 
-    let email
+    let email;
 
     async function loginUser() {
    	 const { error } = await supabase.auth.signIn({
